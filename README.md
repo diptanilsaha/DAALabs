@@ -11,5 +11,11 @@ Design and Analysis of Algorithms - Lab
     * Creating and Inserting Node
     * Traversing Tree
 
+* [AVL Tree](/avl-tree.c)
+    * LL Rotation
+    * RR Rotation
+
 ### Upcoming
-Iterative Traversal of Tree
+* Iterative Traversal of Tree
+* LR Rotation
+* RL Rotation
