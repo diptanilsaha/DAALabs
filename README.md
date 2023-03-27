@@ -20,6 +20,5 @@ Design and Analysis of Algorithms - Lab
     * RR Rotation
 
 ### Upcoming
-* Iterative Traversal of Tree
 * LR Rotation
 * RL Rotation
