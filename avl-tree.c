@@ -44,8 +44,8 @@ void postorder(TreeNode *root) {
 	if(!root) {
 		return;
 	}
-	preorder(root->left);
-	preorder(root->right);
+	postorder(root->left);
+	postorder(root->right);
 	printf("%d ", root->data);
 }
  
@@ -63,7 +63,7 @@ TreeNode *searchNode(TreeNode *root, int data) {
  
 	if(root->data == data) {
 		return root;
-	}else if(root->data > data && root->left) {
+	} else if(root->data > data && root->left) {
 		if(root->left->data == data){
 			return root->left;
 		} else {
@@ -86,7 +86,7 @@ TreeNode *searchParentNode(TreeNode *root, int data) {
  
 	if(root->data == data){
 		return NULL;
-	}else if(root->data > data && root->left) {
+	} else if(root->data > data && root->left) {
 		if(root->left->data == data){
 			return root;
 		} else {
@@ -104,8 +104,7 @@ TreeNode *searchParentNode(TreeNode *root, int data) {
 void case1delete(TreeNode *node, TreeNode *parent, TreeNode **root) {
 	if(!parent) {
 		*root = NULL;
-	}
-	else if (parent->left == node) {
+	} else if (parent->left == node) {
 		parent->left = NULL;
 	} else if (parent->right == node) {
 		parent->right = NULL;
