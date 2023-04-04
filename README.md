@@ -19,6 +19,10 @@ Design and Analysis of Algorithms - Lab
     * LL Rotation
     * RR Rotation
 
+* Graph
+    * [BFS Traversal using Adjacency Matrix](/adjacency_matrix.c)
+
 ### Upcoming
+* BFS Traversal using Adjacency List
 * LR Rotation
 * RL Rotation
