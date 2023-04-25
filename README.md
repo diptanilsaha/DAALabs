@@ -1,28 +1,27 @@
 # DAALabs
 Design and Analysis of Algorithms - Lab
 
-* Non-Recursive Tree Traversal:
-    * [Preorder and Inorder Traversal](/nr-traversal.c)
-    * [Postorder Traversal](/nr-postorder.c)
+* ## Tree
+    * ### Non Recursive Traversal
+        * [Preorder & Inorder Traversal](/Tree/nonRecursiveTree/NRT_Traversal.c)
+        * [Postorder Traversal](/Tree/nonRecursiveTree/NRT_Postorder.c)
 
-* [Binary Search Tree](/bst.c):
-    * Creating and Inserting Nodes
-    * Preorder & Inorder Traversal (Recursive)
-    * Deleting Nodes
+    * ### [BST](/Tree/BST/BST.c)
+        * Node Creation, Insertion, Deletion
+        * Preorder and Inorder Traversal (Recursive)
 
-* [Threaded Binary Search Tree](/tbst.c)
-    * Double Threaded Binary Search Tree
-    * Creating and Inserting Node
-    * Traversing Tree
+    * ### [Threaded BST](/Tree/ThreadedBST/ThreadedBST.c)
+        * Double Threaded Binary Search Tree
+        * Node Creation and Insertion
+        * Tree Traversal
 
-* [AVL Tree](/avl-tree.c)
-    * LL Rotation
-    * RR Rotation
+    * ### [AVL](/Tree/AVL/AVL.c)
+        * LL Rotation
+        * RR Rotation
 
-* Graph
-    * [BFS Traversal using Adjacency Matrix](/adjacency_matrix.c)
+* ## Graphs
+    * [BFS implementation on Adjaceny Matrix](/Graphs/BFS_AdjMatrix.c)
+    * [DFS implementation on Adjacency List](/Graphs/DFS_AdjList.c)
 
 ### Upcoming
-* BFS Traversal using Adjacency List
-* LR Rotation
-* RL Rotation
+* LR and RL Rotation in AVL Tree
